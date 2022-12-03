@@ -1,0 +1,121 @@
+*{
+  font-family: poppins;
+}
+
+.navbar{
+  background-color: #fff;
+}
+
+.navbar .link{
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  font-weight: 500;
+  transition: all ease-in 0.4s;
+}
+
+.navbar .link:hover{
+  color: rgb(230, 230, 28);
+  border-bottom: 2px solid yellow;
+  transition: all ease-out 0.4s;
+}
+.navbar .btn-contact{
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(241, 241, 65);
+  border-radius: 20px 2px 20px 20px;
+  padding: 10px 24px 10px 24px;
+}
+
+
+
+/* hero */
+
+#hero{
+  padding-top: 100px;
+
+}
+#hero h4{
+  font-weight: 500;
+  color: blue;
+
+}
+
+#hero h1{
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+#hero .btn-hire{
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(168, 143, 0);
+  color: white;
+  border-radius: 19px;
+  text-decoration: none;
+  padding: 10px 40px;
+  transition: all ease-in 0.4s;
+
+}
+
+#hero .btn-hire:hover{
+  background-color: blue;
+  transition: all ease-out 0.4s;
+}
+#hero i{
+  color: blue;
+  box-shadow: 20px black;
+}
+
+#jasa{
+  padding-top: 100px;
+}
+
+#jasa .card{
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0 , 0.15);
+}
+
+/* about */
+#about{
+  padding-top: 100px;
+}
+
+/* portofolio */
+#portofolio{
+  padding-top: 100px;
+}
+
+/* @media (max-width: 1199.98px) { 
+
+ }
+
+@media (max-width: 767.98px) { 
+
+} */
+
+@media (max-width: 575.98px) { 
+  .navbar ul li{
+    margin-top: 16px;
+  }
+
+  .navbar .btn-contact{
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  #hero {
+    padding-top: 50px;
+  }
+
+  #hero h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+ 
+}
